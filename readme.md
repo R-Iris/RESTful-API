@@ -1,7 +1,7 @@
 This is my first project working with **REST API**. It uses **PHP** and **MySQL** without any added frameworks.
 
 ---
-#Goal
+# Goal
 Build a task list system that will allow users to log in and create, update and delete tasks. Each user's tasks will be private to them and other users will not be able to view them.
 
 More specifically, the developer is responsible for the **database** back end, the **web services** and the **Authentication Module** (thus, the developer is not responsible for the **front end** or the **server** set up).
