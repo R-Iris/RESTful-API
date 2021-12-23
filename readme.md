@@ -15,11 +15,11 @@ More specifically, the developer is responsible for the **database** back end, t
 - [x] Return a JSON response for all APIs and allow caching where appropriate
 - [x] A task has an ID, title, description, deadline date, completion status
 - [ ] Return a list of details for all tasks for a user using a URL of: */tasks*
-- [ ] Return a list of details for all tasks for a user with pagination using a URL of: */tasks/page/{:page}
+- [ ] Return a list of details for all tasks for a user with pagination using a URL of: */tasks/page/{:page}*
 - [x] Return a list of details for a single task for a user using a URL of: */tasks/{:taskid}*
-- [ ] Return a list of details for all incomplete tasks for a user using a URL of: */tasks/incomplete*
-- [ ] Return a list of details for all complete tasks for a user using a URL of: */tasks/complete*
-- [ ] Delete a task for a user using a URL of: */tasks/{:taskid}*
+- [x] Return a list of details for all incomplete tasks for a user using a URL of: */tasks/incomplete*
+- [x] Return a list of details for all complete tasks for a user using a URL of: */tasks/complete*
+- [x] Delete a task for a user using a URL of: */tasks/{:taskid}*
 - [ ] Update title, description, deadline date or completion status and return updated task using a URL of: */tasks/{:taskid}*
 - [ ] Create a new task and return the details for the new task using a URL of: */tasks*
 
