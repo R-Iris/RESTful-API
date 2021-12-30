@@ -55,7 +55,7 @@ class Task {
      * @throws TaskException
      */
     public function setTitle($title) {
-        if (($title !== null) && (!is_string($title) || strlen($title) < 0 || strlen($title) > 225 || $this->_title !== null)) {
+        if (($title !== null) && (!is_string($title) || strlen($title) < 0 || strlen($title) > 225)) {
             throw new TaskException("Task Title error");
         }
 

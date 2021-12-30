@@ -20,7 +20,7 @@ More specifically, the developer is responsible for the **database** back end, t
 - [x] Return a list of details for all incomplete tasks for a user using a URL of: */tasks/incomplete*
 - [x] Return a list of details for all complete tasks for a user using a URL of: */tasks/complete*
 - [x] Delete a task for a user using a URL of: */tasks/{:taskid}*
-- [ ] Update title, description, deadline date or completion status and return updated task using a URL of: */tasks/{:taskid}*
+- [x] Update title, description, deadline date or completion status and return updated task using a URL of: */tasks/{:taskid}*
 - [x] Create a new task and return the details for the new task using a URL of: */tasks*
 
 
