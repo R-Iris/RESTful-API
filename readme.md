@@ -27,10 +27,10 @@ More specifically, the developer is responsible for the **database** back end, t
 
 ## API Requirements - Authentication
 
-- [ ] Return a JSOn response for all APIs
+- [ ] Return a JSON response for all APIs
 - [ ] A user has an ID, full name, unique username, hashed password, user active status and login attempts
 - [ ] A user can log in on more than one device and should not log out a previous device (sessions)
-- [ ] Create a new user using a URL of: */users*
+- [x] Create a new user using a URL of: */users*
 - [ ] Log in a user using a URL of: */sessions*
 - [ ] Logout a user using a URL of: */sessions/{:sessionid}*
 - [ ] Limited lifetime of a session access token, refreshed using a URL of: */sessions/{:sessionid}*
