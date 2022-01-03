@@ -1,5 +1,5 @@
 This is my first project working with **REST API**. It uses **PHP** and **MySQL** without any added frameworks.
-
+Using **Postman** to test out the endpoints of the API.
 
 
 # Goal
@@ -31,7 +31,7 @@ More specifically, the developer is responsible for the **database** back end, t
 - [ ] A user can log in on more than one device and should not log out a previous device (sessions)
 - [x] Create a new user using a URL of: */users*
 - [x] Log in a user using a URL of: */sessions*
-- [ ] Logout a user using a URL of: */sessions/{:sessionid}*
+- [x] Log out a user using a URL of: */sessions/{:sessionid}*
 - [ ] Limited lifetime of a session access token, refreshed using a URL of: */sessions/{:sessionid}*
 
 Note: This project is heavily inspired by an online course given by Michael Spinks.
