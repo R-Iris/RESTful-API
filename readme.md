@@ -23,9 +23,6 @@ More specifically, the developer is responsible for the **database** back end, t
 - [x] Update title, description, deadline date or completion status and return updated task using a URL of: */tasks/{:taskid}*
 - [x] Create a new task and return the details for the new task using a URL of: */tasks*
 
-![](C:\Users\Iris\Desktop\RESTAPI\3.png)
-
-
 
 ## API Requirements - Authentication
 
@@ -36,7 +33,5 @@ More specifically, the developer is responsible for the **database** back end, t
 - [x] Log in a user using a URL of: */sessions*
 - [ ] Logout a user using a URL of: */sessions/{:sessionid}*
 - [ ] Limited lifetime of a session access token, refreshed using a URL of: */sessions/{:sessionid}*
-
-![](C:\Users\Iris\Desktop\RESTAPI\2.png)
 
 Note: This project is heavily inspired by an online course given by Michael Spinks.
