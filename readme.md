@@ -32,6 +32,6 @@ More specifically, the developer is responsible for the **database** back end, t
 - [x] Create a new user using a URL of: */users*
 - [x] Log in a user using a URL of: */sessions*
 - [x] Log out a user using a URL of: */sessions/{:sessionid}*
-- [ ] Limited lifetime of a session access token, refreshed using a URL of: */sessions/{:sessionid}*
+- [x] Limited lifetime of a session access token, refreshed using a URL of: */sessions/{:sessionid}*
 
 Note: This project is heavily inspired by an online course given by Michael Spinks.
