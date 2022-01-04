@@ -8,7 +8,7 @@ Build a task list system that will allow users to log in and create, update and 
 
 More specifically, the developer is responsible for the **database** back end, the **web services** and the **Authentication Module** (thus, the developer is not responsible for the **front end** or the **server** set up).
 
-
+</br>
 
 ## Requirements
 
@@ -35,3 +35,11 @@ More specifically, the developer is responsible for the **database** back end, t
 - [x] Limited lifetime of a session access token, refreshed using a URL of: */sessions/{:sessionid}*
 
 Note: This project is heavily inspired by an online course given by Michael Spinks.
+
+</br>
+
+<p align="center">
+A sample preview of some endpoints and their output:
+  </br>
+<img height="750" src="https://raw.githubusercontent.com/R-Iris/RESTful-API/main/v1/APIpreview.png"></p>
+
