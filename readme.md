@@ -28,7 +28,7 @@ More specifically, the developer is responsible for the **database** back end, t
 
 - [x] Return a JSON response for all APIs
 - [x] A user has an ID, full name, unique username, hashed password, user active status and login attempts
-- [ ] A user can log in on more than one device and should not log out a previous device (sessions)
+- [x] A user can log in on more than one device and should not log out a previous device (sessions)
 - [x] Create a new user using a URL of: */users*
 - [x] Log in a user using a URL of: */sessions*
 - [x] Log out a user using a URL of: */sessions/{:sessionid}*

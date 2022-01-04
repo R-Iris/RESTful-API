@@ -83,7 +83,6 @@ if (array_key_exists("sessionid", $_GET)) {
         }
     }
 
-    // Refresh the session. Get a new access token API that lasts 20min
     elseif ($_SERVER['REQUEST_METHOD'] === 'PATCH') {
         if ($_SERVER['CONTENT_TYPE'] !== 'application/json') {
             $response = new Response();
