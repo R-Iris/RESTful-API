@@ -18,8 +18,10 @@ catch (PDOException $e) {
 
 // If the URL is of type /sessions.php?sessionid=3. This will be later rewritten as /sessions/3
 if (array_key_exists("sessionid", $_GET)) {
+    // Controller
     $sessionID = $_GET['sessionid'];
 
+    // Controller
     if (!is_numeric($sessionID) || $sessionID === '') {
         $response = new Response();
         $response->setHttpStatusCode(400);
@@ -30,6 +32,7 @@ if (array_key_exists("sessionid", $_GET)) {
         exit();
     }
 
+    // Controller
     if (!isset($_SERVER['HTTP_AUTHORIZATION']) || strlen($_SERVER['HTTP_AUTHORIZATION']) < 1) {
         $response = new Response();
         $response->setHttpStatusCode(401);
@@ -45,14 +48,17 @@ if (array_key_exists("sessionid", $_GET)) {
     // Deleting the session (logging out)
     if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
         try {
+            // Repository
             $query = $writeDB->prepare('DELETE FROM tblsessions WHERE id = :sessionid AND accesstoken = :accesstoken');
             $query->bindParam(':sessionid', $sessionID);
             $query->bindParam(':accesstoken', $accesstoken, PDO::PARAM_STR);
             $query->execute();
 
+            // Services
             $rowCount = $query->rowCount();
 
             if ($rowCount === 0) {
+                // Chain call to controller
                 $response = new Response();
                 $response->setHttpStatusCode(400);
                 $response->setSuccess(false);
